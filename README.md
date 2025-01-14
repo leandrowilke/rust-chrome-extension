@@ -5,6 +5,7 @@ A simple Chrome extension that demonstrates using Rust with WebAssembly.
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -14,11 +15,13 @@ cargo install wasm-pack
 ```
 
 2. Build the extension:
+
 ```bash
 npm run build
 ```
 
 3. Load in Chrome:
+
 - Open `chrome://extensions`
 - Enable Developer mode
 - Click "Load unpacked"
