@@ -2,6 +2,10 @@
 
 A simple Chrome extension that demonstrates using Rust with WebAssembly.
 
+## Demo
+
+![Extension Demo](demo/v1-greet.png)
+
 ## Setup
 
 1. Install dependencies:
@@ -34,7 +38,7 @@ npm run build
 
 ## Structure
 
-```
+```bash
 rust-chrome-extension/
 ├── Cargo.toml           # Rust dependencies and build config
 ├── src/
