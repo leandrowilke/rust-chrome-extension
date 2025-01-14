@@ -1,0 +1,9 @@
+{
+  "name": "rust-chrome-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension using Rust and WebAssembly",
+  "scripts": {
+    "clean": "rm -rf dist pkg target",
+    "build": "npm run clean && wasm-pack build --target web && mkdir dist && cp -r pkg/* dist/ && cp popup.html popup.js manifest.json dist/"
+  }
+}

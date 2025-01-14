@@ -1,0 +1,8 @@
+/target
+/pkg
+/dist
+/node_modules
+Cargo.lock
+*.sw?
+.DS_Store
+.vscode/
