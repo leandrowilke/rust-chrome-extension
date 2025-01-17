@@ -1,3 +1,5 @@
+https://dzone.com/articles/build-chrome-extension-rust-webassembly
+
 # Rust Chrome Extension Example
 
 A simple Chrome extension that demonstrates using Rust with WebAssembly.
